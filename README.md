@@ -35,7 +35,7 @@ The key business question he wants you to help him answer are the following:
 ->Ensure all null string values with an "unknown" string value in the original segment column as well as the new age_band and demographic columns. 
 ->Generate a new avg_transaction column as the sales value divided by transactions rounded to 2 decimal places for each record. 
 
-You can find the dataset [before](#data_mart.csv) and [after](#cleaned_data_mart.csv) cleaning here. The Cleansing is done using the Python, pandas.
+You can find the dataset [before](data_mart.csv) and [after](cleaned_data_mart.csv) cleaning here. The Cleansing is done using the Python, pandas.
 
 ## Data Exploration
 1. What day of the week is used for each week_date value?
@@ -47,7 +47,7 @@ You can find the dataset [before](#data_mart.csv) and [after](#cleaned_data_mart
 7. Which age_band and demographic values contribute the most to Retail sales?
 8. Can we use the avg_transaction column to find the average transaction size for each year for Retail vs Shopify? If not - how would you calculate it instead?                                                                
 
-You can find the queries to these above questions [here](#cleaned_data_mart.sql).
+You can find the queries to these above questions [here](cleaned_data_mart.sql).
 
 ## Data Representation
 This technique is usually used when we inspect an important event and want to inspect the impact before and after a certain point in time.
@@ -58,12 +58,12 @@ Taking the week_date value of 2020-06-15 as the baseline week where the Data Mar
 2. What about the entire 12 weeks before and after?
 3. How do the sale metrics for these 2 periods before and after compare with the previous year in 2019?
 
-You can get the visualization graphs for the above questions [here](#cleaned_data_mart.twbx).
+You can get the visualization graphs for the above questions [here](cleaned_data_mart.twbx).
 
 4.Bonus Question
 Which areas of the business have the highest negative impact in sales metrics performance in 2020 for the 12 week before and after period?
 
-The answer for this bonus question is uploaded [here](#cleaned_data_mart.sql).
+The answer for this bonus question is uploaded [here](cleaned_data_mart.sql).
 
 ## Conclusion
 
